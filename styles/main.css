@@ -1,0 +1,64 @@
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 100%; 
+	width: 800px;
+	margin: 15px auto;
+	border: 5px solid black;
+	box-shadow: 5px 5px 25px 0;
+	background-image: url("images/bats.gif");
+	}
+
+section {
+	width: 160px;
+	padding-right: 1em;
+	margin: .5em;
+	float: left; }
+
+aside { 
+	width: 570px;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	margin: .25em;
+	float: right; }
+
+a {font-weight: bold; }
+a:link {color: #FFB84D; }
+a:visited {color: #FFB84D; }
+a:hover, a:focus {color: #39E600; }
+
+ul {line-height: 1.5; }
+
+header img {float: left; }
+header {background-image: -webkit-linear-gradient(45deg, #ffffff 0%, #ffb051 75%, #000000 100%);
+		border-bottom: 2px solid black}
+
+header h2 {
+	text-indent: 1em;
+	font-size: 180%;
+	text-align: left;
+}
+
+header h3 {
+	text-indent: 2em;
+	font-size: 130%;
+	font-style: bold;	
+	text-align: left;
+}
+
+main {clear: left; }
+main h1:first-letter {font-size:200%; }
+main h1 {font-size: 180%; }
+main h2 {font-size: 150%; }
+main h3 {font-size: 130%; }
+
+footer {clear: both;
+		border-top: 2px solid black; 
+		padding: .5em;
+		background-image: -webkit-linear-gradient(45deg, #000000 0%, #ffb051 25%, #ffffff 100%);
+		}
+		
+footer p {
+	font-size: 80%;
+	text-align: center;
+}
+
