@@ -1,13 +1,32 @@
+/*Victoria Wozniak
+7851264
+PROG1247-Web Foundations*/
+
+/* The styles that create the background for the body and behind the body*/
+html {
+	background-image: url("../images/bats.gif"); }
+
 body {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	font-size: 100%; 
 	width: 800px;
 	margin: 15px auto;
 	border: 5px solid black;
+	background-color: white;
 	box-shadow: 5px 5px 25px 0;
-	background-image: url("images/bats.gif");
 	}
 
+header img {float: left;
+			padding: 1em;}
+
+/* Creates a white  --> orange --> black gradient in modern browsers for the header background */
+header {
+		background-image: -webkit-linear-gradient(45deg, #ffffff 0%, #ffb051 75%, #000000 100%);
+		background-image: -moz-linear-gradient(45deg, #ffffff 0%, #ffb051 75%, #000000 100%);
+		background-image: -o-linear-gradient(45deg, #ffffff 0%, #ffb051 75%, #000000 100%);
+		border-bottom: 2px solid black}
+
+/* Settings for the size and padding/margins for the web navigation and the main content of our site */
 section {
 	width: 160px;
 	padding-right: 1em;
@@ -21,6 +40,7 @@ aside {
 	margin: .25em;
 	float: right; }
 
+/* Selectors for the colours we want our links to be highlighted */
 a {font-weight: bold; }
 a:link {color: #FFB84D; }
 a:visited {color: #FFB84D; }
@@ -28,35 +48,37 @@ a:hover, a:focus {color: #39E600; }
 
 ul {line-height: 1.5; }
 
-header img {float: left; }
-header {background-image: -webkit-linear-gradient(45deg, #ffffff 0%, #ffb051 75%, #000000 100%);
-		border-bottom: 2px solid black}
-
+/* Styles for the header content */
 header h2 {
-	text-indent: 1em;
-	font-size: 180%;
+	font-size: 170%;
 	text-align: left;
+	margin-top: 0;
+	padding-top: .25em;
 }
 
 header h3 {
-	text-indent: 2em;
 	font-size: 130%;
 	font-style: bold;	
 	text-align: left;
 }
 
+/* Styles for the main content */
 main {clear: left; }
 main h1:first-letter {font-size:200%; }
-main h1 {font-size: 180%; }
+main h1 {font-size: 150%; }
 main h2 {font-size: 150%; }
 main h3 {font-size: 130%; }
 
+/* Creates a black --> orange --> white gradient visible in all modern browsers for our footer background */
 footer {clear: both;
 		border-top: 2px solid black; 
 		padding: .5em;
 		background-image: -webkit-linear-gradient(45deg, #000000 0%, #ffb051 25%, #ffffff 100%);
+		background-image: -moz--linear-gradient(45deg, #000000 0%, #ffb051 25%, #ffffff 100%);
+		background-image: -o--linear-gradient(45deg, #000000 0%, #ffb051 25%, #ffffff 100%);
 		}
-		
+
+/* styles the footer */
 footer p {
 	font-size: 80%;
 	text-align: center;
